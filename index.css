@@ -1,178 +1,98 @@
+/* index.css */
+
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+/* General Styles */
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Lora', serif;
+    color: #333;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: row;
     align-items: center;
-  }
-  
-  .profile-image {
-    display: block;
-    margin-right: 20px;
-    width: 300px;
-    height: 300px;
+    flex-direction: column;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center;
-  }
-  
-  .name {
-    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: #007acc;
+    margin: 10px 0;
     font-weight: bold;
-    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 2px;
-    margin-left: 5px;
-  }
-  
-  .designation {
-    font-size: 16px;
-    margin-bottom: 8px;
-    margin-left: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    opacity: 70%;
-  }
-  
-  .location{
-    font-size: 14px;
-    text-align: left;
-    margin-left: 10px;
+}
+
+.designation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #555;
     margin-bottom: 10px;
-    opacity: 80%;
-  }
-  .bio {
-    font-size: 14px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-  }
-  .links {
-    display: flex;
-    justify-content: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .links a {
+}
+
+.location {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.bio {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.links a {
     display: inline-block;
-    margin: 0 10px;
-    padding: 5px 10px;
-    background-color: #e9e8e8;
-    color: #1f1f1f;
+    margin: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007acc;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .links a:hover {
-    background-color: #00bcd4;
-  }
-  
-  
-  .social-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-  
-  .social-link {
-    margin-right: 10px;
-    font-size: 25px;
-    color: #333;
-  }
-  
-  .social-link:hover {
-    color: #00bcd4;
-  }
-  
-  /* Media queries */
-  
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      align-items: flex-start;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .profile-image {
-      width: 200px;
-      height: 200px;
-      margin: 0 0 12px 0;
-      
-    }
-  
-    .name {
-      font-size: 30px;
-      margin-left: 0;
-      text-align: center;
-    }
-  
-    .designation {
-      font-size: 14px;
-      margin-left: 0;
-      text-align: center;
-    }
-    .location{
-        text-align: center;
-    }
-  
-    .bio {
-      margin-left: 0;
-      text-align: center;
-    }
-  .links{
-    justify-content: center;
-  }
-    .social-links {
-      margin-left: 0;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .social-link {
-      font-size: 20px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .container {
-      padding: 10px;
-      align-items: center;
-    }
-  
-    .profile-image {
-      width: 150px;
-      height: 150px;
-      align-items: center;
-    }
-  
-    .name {
-      font-size: 24px;
-      text-align: center;
-    }
-  
-    .designation {
-      font-size: 12px;
-      text-align: center;
-    }
-  
-    .bio {
-      font-size: 12px;
-      text-align: center;
-    }
-  
-    .social-links {
-      font-size: 16px;
-      align-items: center;
-    }
-  }
-  
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    background-color: #005f8a;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-link {
+    color: #007acc;
+    font-size: 1.5em;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #005f8a;
+}
