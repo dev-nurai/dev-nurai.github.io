@@ -4,7 +4,7 @@ title: 'Software Engineer'
 company: 'Binate IT Services'
 location: 'Vasai'
 range: 'May 2023 - Present'
-url: 'https://www.apple.com/music/'
+url: 'https://binateit.com/'
 ---
 
 - Designed and developed robust backend systems for projects like Saawree (e-commerce) and Real Bet (online betting platform).

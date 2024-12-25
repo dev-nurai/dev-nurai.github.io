@@ -109,7 +109,6 @@ const StyledNav = styled.nav`
   }
 `;
 
-
 const StyledLinks = styled.div`
   display: flex;
   align-items: center;
@@ -185,10 +184,17 @@ const Nav = ({ isHome }) => {
   const Logo = (
     <div className="logo" tabIndex="-1">
       {isHome ? (
-        <a href="/" aria-label="home" class="aLogo">
+        <a href="/" aria-label="home">
           <span class="bracket left-bracket">&lt;</span>
           <span class="logo-text">Nurai</span>
           <span class="bracket right-bracket">/&gt;</span>
+          {/* <div className="hex-container">
+            <IconHex />
+          </div>
+          <div className="logo-container">
+            <IconLogo />
+          </div> */}
+
         </a>
       ) : (
         <Link to="/" aria-label="home">
@@ -204,7 +210,7 @@ const Nav = ({ isHome }) => {
   );
 
   const ResumeLink = (
-    <a className="resume-button" href="/nurai_resume_v3.pdf" target="_blank" rel="noopener noreferrer">
+    <a className="resume-button" href="/Nurai_Resume_v3.pdf" target="_blank" rel="noopener noreferrer">
       Resume
     </a>
   );

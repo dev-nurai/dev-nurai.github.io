@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.nurai.dev/sitemap-index.xml
-Host: https://www.nurai.dev
+Sitemap: https://brittanychiang.com/sitemap-index.xml
+Host: https://brittanychiang.com

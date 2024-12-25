@@ -65,21 +65,22 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building web-based applications. Currently, I’m focused on building E-Commerce platform
-        at{' '}
+        I’m a software engineer specializing in building web-based applications. Currently, I’m focused on creating a robust E-commerce platform at{' '}
         <a href="https://binateit.com/" target="_blank" rel="noreferrer">
           Binate IT Services
         </a>
         {' '}for{' '}
-         <a href="https://saawree.com/" target="_blank" rel="noreferrer">Saawree</a>
-        .
+        <a href="https://saawree.com/" target="_blank" rel="noreferrer">
+          Saawree
+        </a>
+          .
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="/nurai_resume_v3.pdf"
+      href="/Nurai_Resume_v3.pdf"
       target="_blank"
       rel="noreferrer">
       Check out my resume!

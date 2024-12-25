@@ -133,9 +133,9 @@ const About = () => {
 
       <div className="inner">
         <StyledText>
-          <div>
+        <div>
             <p>
-            Hi, I’m Nurai - A Software Developer with 2 years of experience. I specialize in building robust backend systems, seamless API integrations, and scalable solutions.
+            Hi, I’m Nurai, a passionate Software Developer with 2 years of experience specializing in building robust backend systems, seamless API integrations, and scalable solutions.
             </p>
             <p>
               Currently, I work at{' '}
