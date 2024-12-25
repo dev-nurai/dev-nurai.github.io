@@ -1,6 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: `/dev-nurai.github.io`,
   siteMetadata: {
     title: 'Nurai',
     description:
@@ -20,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Nurai Khan',
+        short_name: 'Nurai',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
