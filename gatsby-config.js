@@ -1,12 +1,11 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: `/dev-nurai.github.io`,
   siteMetadata: {
     title: 'Nurai',
     description:
       'I’m a software engineer specializing in building web-based applications.',
-      siteUrl: 'https://dev-nurai.github.io', // No trailing slash allowed!
+      siteUrl: 'https://www.nurai.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
