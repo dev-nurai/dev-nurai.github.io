@@ -1,6 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/dev-nurai.github.io',
   siteMetadata: {
     title: 'Nurai',
     description:
