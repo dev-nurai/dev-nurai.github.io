@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://nurai.dev/sitemap.xml
-Host: https://nurai.dev
+Sitemap: https://dev-nurai.github.io/sitemap.xml
+Host: https://dev-nurai.github.io
