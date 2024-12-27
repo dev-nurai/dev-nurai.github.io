@@ -4,7 +4,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("F:\\src\\MyGitProjects\\web\\v4\\.cache\\dev-404-page.js")),
+  "component---cache-caches-gatsby-plugin-offline-app-shell-js": preferDefault(require("F:\\src\\MyGitProjects\\web\\v4\\.cache\\caches\\gatsby-plugin-offline\\app-shell.js")),
   "component---src-pages-404-js": preferDefault(require("F:\\src\\MyGitProjects\\web\\v4\\src\\pages\\404.js")),
   "component---src-pages-archive-js": preferDefault(require("F:\\src\\MyGitProjects\\web\\v4\\src\\pages\\archive.js")),
   "component---src-pages-index-js": preferDefault(require("F:\\src\\MyGitProjects\\web\\v4\\src\\pages\\index.js")),
