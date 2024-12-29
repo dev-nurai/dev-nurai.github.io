@@ -10,7 +10,7 @@ module.exports = {
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
-  pathPrefix: `/`,
+  pathPrefix: `/dev-nurai.github.io`,
   plugins: [
     
     `gatsby-plugin-react-helmet`,
