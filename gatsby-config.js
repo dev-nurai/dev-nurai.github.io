@@ -1,15 +1,16 @@
 const config = require('./src/config');
+require('events').defaultMaxListeners = 20;
 
 module.exports = {
-  pathPrefix: "/dev-nurai.github.io",
   siteMetadata: {
     title: 'Nurai',
     description:
       'I’m a software engineer specializing in building web-based applications.',
-      siteUrl: 'https://dev-nurai.github.io',// No trailing slash allowed!
+      siteUrl: 'https://nurai.dev',// No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
+  pathPrefix: `/`,
   plugins: [
     
     `gatsby-plugin-react-helmet`,
