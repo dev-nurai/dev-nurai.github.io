@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
-  "homepage": "https://dev-nurai.github.io",
+  "homepage": "https://nurai.dev",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
