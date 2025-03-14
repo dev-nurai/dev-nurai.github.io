@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
-  "homepage": "https://dev-nurai.github.io",
+  "homepage": "https://dev-nurai.github.io/dev-nurai.github.io",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -25,7 +25,7 @@
     "clean": "gatsby clean",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages" 
+    "deploy": "gatsby build && gh-pages -d public" 
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
