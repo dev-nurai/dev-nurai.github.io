@@ -61,19 +61,15 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Nurai Khan.</h2>;
-  const three = <h3 className="big-heading">I love to build things.</h3>;
+  const three = <h3 className="big-heading">I engineer meaningful web experiences.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building web-based applications. Currently, I’m focused on creating a robust E-commerce platform at{' '}
-        <a href="https://binateit.com/" target="_blank" rel="noreferrer">
-          Binate IT Services
+        I’m a Software Engineer who enjoys turning complex ideas into scalable, secure, and impactful applications. Currently building a robust US HealthCare platform at{' '}
+        <a href="https://www.osplabs.com/" target="_blank" rel="noreferrer">
+          OAP Labs
         </a>
-        {' '}for{' '}
-        <a href="https://saawree.com/" target="_blank" rel="noreferrer">
-          Saawree
-        </a>
-          .
+          , where innovation meets compliance to serve real-world needs.
       </p>
     </>
   );

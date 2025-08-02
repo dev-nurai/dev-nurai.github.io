@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C#', '.Net Core', 'MS SQL Server', 'EF Core', 'TypeScript', 'React'];
+  const skills = ['C#', '.Net Core', 'MS SQL Server', 'EF Core/Dapper', 'TypeScript', 'React/Angular', "LLMs", 'Vector Database'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,15 +135,21 @@ const About = () => {
         <StyledText>
         <div>
             <p>
-            Hi, I’m Nurai, a passionate Software Developer with 2 years of experience specializing in building robust backend systems, seamless API integrations, and scalable solutions.
+            I’m a curious problem-solver with hands-on experience in engineering backend systems, integrating third-party APIs, and building full-stack features that perform under pressure.
             </p>
             <p>
               Currently, I work at{' '}
-              <a href="https://binateit.com/">Binate IT Services Pvt Ltd</a>, contributing to projects like Saawree and Real Bet, where I’ve implemented features like Razorpay payments, email/SMS notifications, and clean, efficient code.
+              <a href="https://www.osplabs.com">OSP Labs</a>, I’m excited to work on mission-critical health tech—designing solutions that prioritize HIPAA compliance, interoperability, and reliable data workflows to support clinicians and patients alike.
             </p>
-
             <p>
-            Outside of work, I enjoy cricket, and love discovering new destinations. I’m always eager to connect, collaborate, and create impactful solutions through technology.
+              Prior to this, I worked at{' '}
+              <a href="https://binateit.com/">Binate IT Services Pvt Ltd</a>, contributing to projects like Saawree and Real Bet, where I built and shipped features such as Razorpay payment integration, email/SMS automation, and efficient, modular codebases.
+            </p>
+            <p>
+              I’m exploring AI in software development, using tools like OpenAI APIs, LangChain, and AI agents to build smarter, context-aware systems that streamline workflows, extract insights, and enhance user experience in healthcare and transactional platforms.
+            </p>
+            <p>
+            Off-screen, I’m into cricket and travel—both help me recharge and return with fresh perspective and drive.
             </p>
 
             <p>Here are the technologies I’ve been working:</p>
