@@ -67,7 +67,7 @@ const Hero = () => {
       <p>
         I’m a Software Engineer who enjoys turning complex ideas into scalable, secure, and impactful applications. Currently building a robust US HealthCare platform at{' '}
         <a href="https://www.osplabs.com/" target="_blank" rel="noreferrer">
-          OAP Labs
+          OSP Labs
         </a>
           , where innovation meets compliance to serve real-world needs.
       </p>
