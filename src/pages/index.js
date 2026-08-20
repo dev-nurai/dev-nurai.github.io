@@ -41,6 +41,7 @@ const GlobalStyle = createGlobalStyle`
     --accent: oklch(0.52 0.10 176); --accent-soft: oklch(0.52 0.10 176 / 0.10);
   }
   #dc-root, #dc-root * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); }
   #dc-root {
     min-height: 100vh; background: var(--bg); color: var(--fg); font-size: 15px; line-height: 1.65;
     font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
