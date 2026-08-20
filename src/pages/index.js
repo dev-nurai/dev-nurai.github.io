@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
 import styled, { createGlobalStyle } from 'styled-components';
 import { Helmet } from 'react-helmet';
 import { Head } from '@components';
 import { email, socialMedia } from '@config';
 import { usePrefersReducedMotion } from '@hooks';
+import selfiePhoto from '@images/selfie.jpeg';
 
 const github = socialMedia.find(s => s.name === 'GitHub').url;
 const linkedin = socialMedia.find(s => s.name === 'Linkedin').url;
@@ -201,7 +201,7 @@ const AboutMedia = styled.div`
 
 const PhotoFrame = styled.div`
   aspect-ratio: 4 / 5; border: 1px solid var(--line); overflow: hidden;
-  .gatsby-image-wrapper { width: 100%; height: 100%; }
+  img { display: block; width: 100%; height: 100%; object-fit: cover; }
 `;
 
 const InfoCard = styled.div`
@@ -494,13 +494,7 @@ const IndexPage = () => {
             </div>
             <AboutMedia id="about-media">
               <PhotoFrame>
-                <StaticImage
-                  src="../images/selfie.jpeg"
-                  alt="Nurai Khan"
-                  layout="fullWidth"
-                  aspectRatio={4 / 5}
-                  objectFit="cover"
-                />
+                <img src={selfiePhoto} alt="Nurai Khan" />
               </PhotoFrame>
               <InfoCard>
                 <InfoLabel>BASED IN</InfoLabel>
