@@ -3,7 +3,7 @@ date: '2023-05-22'
 title: 'Software Engineer'
 company: 'Binate IT Services'
 location: 'Vasai'
-range: 'May 2023 - Present'
+range: 'May 2023 - Dec 2024'
 url: 'https://binateit.com/'
 ---
 
